@@ -7,7 +7,7 @@ pipeline{
                 echo "Hello World"
                 sh 'java --version'
                 sh 'jenkins --version'
-                sh 'mvn --version'
+                sh 'mvn package'
             }
         }
     }
