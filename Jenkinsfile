@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build Project"){
             steps{
-                echo ${BUILD_NUMBER}
+                echo "${BUILD_NUMBER}"
                 echo "Hello World"
                 sh 'java --version'
                 sh 'jenkins --version'
